@@ -1,0 +1,213 @@
+.checkedcolor{
+    color: orange;
+}
+.star-container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+img {
+    height: 80px;
+}
+.card {
+    /* display: flex; */
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.productsWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    height: 71vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.cardFooter{
+    display: flex;
+    /* justify-content: center;
+     */
+     flex-direction: row;
+}
+.cardFooter .quantity-btn{
+    /* border: 2px solid black; */
+    /* background: transparent; */
+    /* padding: 15px 10px; */
+    color: #111010;
+    border-radius: 15px;
+    font-weight: bold;
+    /* cursor: pointer; */
+    transition: all 0.3s ease-in-out;
+    margin-right: 1%;
+    border-color: black;
+    width: 5rem;     
+}
+.cardFooter .man-btn{
+    background: rgb(255, 255, 255);
+    height: 25px;
+    width: 1.5rem;    
+    /* padding: 15px 10px; */
+    color: #111010;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    /* transition: all 0.3s ease-in-out; */
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: large;
+    border-color: black;
+    
+}
+
+.button-28{
+    width: 300px;
+    height: 25px;
+    background-color: rgb(6, 108, 100);;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+}
+.button-28:hover{
+    opacity: 0.8;
+}
+.listBar{
+    display: grid;
+    grid-template-columns:1fr 1.5fr .8fr .9fr 1.4fr 1fr;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 14px;
+    border-radius: 5px;
+    
+}
+.listcartCard .quantity-btn{
+    color: #111010;
+    border-radius: 15px;
+    font-weight: bold;
+    /* cursor: pointer; */
+    transition: all 0.3s ease-in-out;
+    margin-right: 1%;
+    border-color: black;
+    width: 5rem;     
+}
+.listcartCard .man-btn{
+    background: rgb(255, 255, 255);
+    height: 25px;
+    width: 1.5rem;    
+    /* padding: 15px 10px; */
+    color: #111010;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    /* transition: all 0.3s ease-in-out; */
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: large;
+    border-color: black;
+}
+.listcartCard {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 14px;
+    border-radius: 5px;
+}
+.listWrapper{
+    height: 62vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.active-btn {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 0.8;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+  .inactive-btn{
+      background: #fefeff;
+      border-radius: 999px;
+      box-shadow: #5E5DF0 0 10px 20px -10px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      opacity: 0.8;
+      outline: 0 solid transparent;
+      padding: 8px 18px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: fit-content;
+      word-break: break-word;
+      border: 0;
+      color: black;
+  }
+  /* scroll bar grid */
+.scroll {
+    width: 200px;
+    height: 400px;
+     background: red;
+    overflow: scroll;
+ }
+ .productsWrapper::-webkit-scrollbar {
+     width: 12px;
+ }
+ 
+ .productsWrapper::-webkit-scrollbar-track {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+     border-radius: 10px;
+ }
+ 
+ .productsWrapper::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+ }
+
+ /* scroll bar list */
+.scroll {
+    width: 200px;
+    height: 400px;
+     background: red;
+    overflow: scroll;
+ }
+ .listWrapper::-webkit-scrollbar {
+     width: 12px;
+ }
+ 
+ .listWrapper::-webkit-scrollbar-track {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+     border-radius: 10px;
+ }
+ 
+ .listWrapper::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+ }
+
+
+
+  

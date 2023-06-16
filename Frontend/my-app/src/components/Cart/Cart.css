@@ -1,0 +1,65 @@
+.cartBar{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr .9fr 1.3fr 1fr;
+    background: #dbd7d7;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    height: 3rem;
+    margin-left: 0;
+    
+   
+}
+.cartCard {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    margin-bottom: 5px;
+    padding: 14px;
+    border-radius: 5px;
+
+}
+
+.cartDown{          
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20rem;        
+}
+.cartWrapper{   
+    height: 75vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.scroll {
+    width: 200px;
+    height: 400px;
+     background: red;
+    overflow: scroll;
+ }
+ .cartWrapper::-webkit-scrollbar {
+     width: 12px;
+ }
+ 
+ .cartWrapper::-webkit-scrollbar-track {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+     border-radius: 10px;
+ }
+ 
+ .cartWrapper::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+ }
+
+ .page-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+ }

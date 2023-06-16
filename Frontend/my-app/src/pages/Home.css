@@ -1,0 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sono&display=swap'); */
+
+
+.home-Wrapper{
+    margin-top: 50px;
+    display: grid;
+    gap: 10px;
+}
+.view-bar{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.home-products-bar{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+.home-products-bar span{
+    /* font-family: 'Sono', sans-serif; */
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+        
+}
